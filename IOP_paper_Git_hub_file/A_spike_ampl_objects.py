@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.cluster import KMeans
+#from sklearn.cluster import KMeans
 
 # Step 1: Load the data from the CSV file
 # Replace 'selected_features.csv' with the actual filename/path
