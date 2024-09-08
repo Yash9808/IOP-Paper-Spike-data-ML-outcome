@@ -20,9 +20,9 @@ colors = sns.color_palette()
 plt.figure(figsize=(10, 15))
 
 # Step 5: Apply KMeans clustering
-n_clusters = 2  # Replace with the desired number of clusters
-kmeans = KMeans(n_clusters=n_clusters, random_state=42)
-clusters = kmeans.fit_predict(df)
+#n_clusters = 2  # Replace with the desired number of clusters
+#kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+#clusters = kmeans.fit_predict(df)
 
 # Columns to plot in red
 columns_to_plot_red = ['Rubber', 'Thermocol', 'Threadball', 'TPU', 'Hollow TPU', 'Green Sponge', 'White Sponge']
